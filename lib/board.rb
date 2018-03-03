@@ -23,11 +23,11 @@ class Board
   end
 
   def full?
-    !@cells.include(" ")
+    !@cells.include?(" ")
   end
 
   def turn_count
-    @cells.count(/[XO]/)
+    @cells.count{|cell| cell == /[XO]/}
   end
 
   def taken?(input)
