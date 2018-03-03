@@ -6,12 +6,8 @@ class Board
     reset!
   end
 
-  def cells
-
-  end
-
   def reset!
-
+    @cells = []
   end
 
   def display
