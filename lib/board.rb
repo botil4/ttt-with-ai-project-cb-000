@@ -27,7 +27,7 @@ class Board
   end
 
   def turn_count
-
+    @cells.count(/[XO]/)
   end
 
   def taken?
