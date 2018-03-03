@@ -7,7 +7,7 @@ class Board
   end
 
   def reset!
-    @cells = []
+    @cells = [" ", " ", " ", " ", " ", " ", " ", " ", " ",]
   end
 
   def display
