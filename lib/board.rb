@@ -35,7 +35,7 @@ class Board
   end
 
   def valid_move?(input)
-    !taken?(input)
+    !taken?(input) if input.between?(1,9)
   end
 
   def update?
