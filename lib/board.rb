@@ -39,7 +39,7 @@ class Board
   end
 
   def update(input, player)
-    position(input) = player
+    @cells[input.to_i-1] = player
   end
 
 end
