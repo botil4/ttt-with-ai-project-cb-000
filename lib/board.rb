@@ -39,7 +39,7 @@ class Board
   end
 
   def update(input, player)
-    @cells[position(input)] = player
+    position(input) = player
   end
 
 end
