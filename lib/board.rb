@@ -23,7 +23,7 @@ class Board
   end
 
   def full?
-
+    !@cells.include(" ")
   end
 
   def turn_count
