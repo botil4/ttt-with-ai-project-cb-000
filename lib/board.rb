@@ -27,7 +27,7 @@ class Board
   end
 
   def turn_count
-    @cells.count{|cell| cell == /[XO]/}
+    @cells.count{|cell| cell == "X" || cell == "O"}
   end
 
   def taken?(input)
