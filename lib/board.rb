@@ -30,8 +30,8 @@ class Board
     @cells.count(/[XO]/)
   end
 
-  def taken?
-
+  def taken?(input)
+    @cells.include?(/[XO]/)
   end
 
   def valid_move?
