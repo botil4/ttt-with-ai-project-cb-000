@@ -38,8 +38,8 @@ class Board
     !taken?(input) if input.to_i.between?(1,9)
   end
 
-  def update?
-
+  def update(input, player)
+    @cells[position(input)] = player
   end
 
 end
