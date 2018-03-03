@@ -1,6 +1,6 @@
 class Board
 
-  attr_accessor
+  attr_accessor :cells
 
   def initialize
     reset!
