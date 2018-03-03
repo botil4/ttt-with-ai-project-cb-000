@@ -35,7 +35,7 @@ class Board
   end
 
   def valid_move?(input)
-    taken?(input)
+    !taken?(input)
   end
 
   def update?
