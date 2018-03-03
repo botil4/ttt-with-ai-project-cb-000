@@ -31,7 +31,7 @@ class Board
   end
 
   def taken?(input)
-    position(input).include?(/[XO]/)
+    position(input).include?(" ")
   end
 
   def valid_move?(input)
