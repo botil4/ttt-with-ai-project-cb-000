@@ -31,11 +31,11 @@ class Board
   end
 
   def taken?(input)
-    @cells.include?(/[XO]/)
+    position(input).include?(/[XO]/)
   end
 
-  def valid_move?
-
+  def valid_move?(input)
+    taken?(input)
   end
 
   def update?
